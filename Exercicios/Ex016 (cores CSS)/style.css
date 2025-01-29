@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif; /* marcar o que é depois no caderno,ele disse que vai explicar melhor depois*/
+}
+
+body { background-image: linear-gradient(to right, #D5D9C7 , #F2A03D);
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #40010197;
+}
+
+h1 {
+    color: #F23E2E;
+    text-align: center;
+    text-shadow: 1px 1px 2px #40010196;
+   }
+
+h2 {
+   color: #400101;
+}
+
+p {
+    text-align: justify 
+}

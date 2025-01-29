@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:android-font;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    margin:0px;
+    background-image:linear-gradient(to right, #e4edc4, #dce6bc);
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+header {
+    background-image:linear-gradient(to top, rgb(8, 71, 40) , rgb(11, 161, 86)) ;
+    color: white;
+    height:200px;
+    padding-top:20px ;
+    font-size: large;
+}
+
+header > h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+header > p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+div {
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div:hover {
+    background-color: rgb(24, 133, 78) ;
+    color: rgb(8, 71, 40);
+}
+
+main {
+    margin:auto;
+    width: 800px;
+    background-color: white;
+    font-weight: lighter;
+    text-indent: 30px;
+    text-align: justify;
+    padding:20px;
+    border-radius: 5px;
+    
+}
+
+main > h1 {
+    font-family:android-font;
+    color:rgb(4, 38, 21) ;
+    margin: 0px;
+    text-indent: 0px;
+}
+
+main > h2 {
+    background-image: linear-gradient(to right, rgb(120, 207, 165), white);
+}
+
+footer {
+    background-color: rgb(8, 71, 40);
+    color: white;
+    text-align: center;
+    height: 25px;
+    margin-top: 40px;
+}
+
+main#oe {
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(8, 71, 40);
+    border-radius: 0px;
+ }
+main#oz {
+  background-color: rgba(70, 201, 135, 0.727);
+  padding: 0px;
+  border-radius: 10px;
+}
+
+main#oz > p {
+    padding: 10px;
+}
+
+p#p {
+    background-color: rgb(24, 99, 61);
+    color: white;
+    font-weight: bold;
+    text-indent:0px;
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+    border: 15px solid rgb(24, 99, 61);
+}
+
+section {
+    padding-right: 160px;
+    display: inline-block;
+}
+
+a {
+    background-color:rgba(70, 201, 135, 0.727) ;
+    text-decoration: none;
+    color: rgb(8, 37, 2);
+}
+
+.ag {
+ color:rgb(16, 68, 4);
+font-weight: bold;
+}
+
+.finale {
+    font-weight: bold;
+}
